@@ -14,15 +14,17 @@ price = 0.0 # Set the threshold
 my_email = ""
 my_password = ""
 recievers_email = ""
-duration = 1 # Number of days to Track
 ``` 
-Run the script in your terminal `py main.py`. 
+Run the script in your terminal `py main.py`. (for one time use or schedule your script)
 
 #### How to set Header? 
 [Click Here](https://www.google.com/search?client=firefox-b-d&q=my+user+agent) 
 Copy and paste **Your User Agent** in the header dictionary mentioned above. 
 
 #### Important:
-You have to keep this script running continuously, *obviously*. You can wipe clean an old PC and run the script on it, or run it online (for example = [PythonAnywhere](https://www.pythonanywhere.com/)) 
- 
+##### Schedule your script:
+- On a [Windows Machine](https://www.youtube.com/watch?v=n2Cr_YRQk7o)  
+- On a [Linux Machine](https://www.youtube.com/watch?v=QZJ1drMQz1A)
+
+
 Code shamelessly stolen from [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)

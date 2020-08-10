@@ -8,7 +8,6 @@ price = 0.0 # Set the threshold
 my_email = ""
 my_password = ""
 recievers_email = ""
-duration = 1 # Number of days to Track
 
 data = {"URL":url,\
         "Header":header,\
@@ -19,9 +18,4 @@ data = {"URL":url,\
 
 
 tracker = pt.tracker(data)
-
-def track(duration):
-    while(duration > 0):
-        print(tracker.checkPrice())
-        time.sleep(86400)
-        duration -= 1
+tracker.checkPrice()
