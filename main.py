@@ -7,7 +7,6 @@ with open("data.txt","r") as f:
     for line in f.readlines():
         urls.append(line.rstrip("\n"))
 header = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0"}
-# price = 11000.0 # Set the threshold
 my_email = ""
 my_password = ""
 recievers_email = ""

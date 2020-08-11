@@ -15,7 +15,6 @@ You can insert any number of links in every *newline* in `data.txt`
 - Replace the necessary arguments in `main.py` file.
 ```
 header = {"User-Agent":""}
-price = 0.0 # Set the threshold
 my_email = ""
 my_password = ""
 recievers_email = ""
